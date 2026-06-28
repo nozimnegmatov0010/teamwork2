@@ -143,5 +143,87 @@
     </div>
   </div>
 </div>
+
+<div class="relative min-h-[600px] bg-cover bg-center bg-no-repeat flex items-center py-16 px-4 sm:px-6 lg:px-8"
+         style="background-image: url('./75b5c0d6aa3e13c7465310229d970e2c13d9d922.jpg');">
+  <div class="absolute inset-0 bg-white/10"></div>
+
+  <div class="relative max-w-6xl w-full mx-auto flex justify-end z-10">
+    
+    <div class="w-full max-w-md bg-white rounded-lg shadow-2xl p-8 md:p-10 border border-gray-100">
+      
+      <h3 class="text-2xl font-black text-[#1E212C] text-center mb-6 tracking-wide">
+        A quick way to discuss details
+      </h3>
+      
+      <form class="space-y-5">
+        
+        <div class="flex flex-col space-y-2">
+          <label class="text-sm text-gray-600 font-medium" for="detail-name">Name*</label>
+          <input 
+            type="text" 
+            id="detail-name" 
+            required
+            placeholder="Your name" 
+            class="w-full bg-[#F4F5F6] border border-[#D7D9DF] rounded px-4 py-3 text-sm text-gray-800 placeholder-gray-400 focus:outline-none "
+          />
+        </div>
+
+        <div class="flex flex-col space-y-2">
+          <label class="text-sm text-gray-600 font-medium" for="detail-phone">Phone*</label>
+          <input 
+            type="tel" 
+            id="detail-phone" 
+            required
+            placeholder="Your phone number" 
+            class="w-full bg-[#F4F5F6] border border-[#D7D9DF] rounded px-4 py-3 text-sm text-gray-800 placeholder-gray-400 focus:outline-none  "
+          />
+        </div>
+
+        <div class="flex flex-col space-y-2">
+          <label class="text-sm text-gray-600 font-medium" for="detail-email">Email</label>
+          <input 
+            type="email" 
+            id="detail-email" 
+            placeholder="Your working email" 
+            class="w-full bg-[#F4F5F6] border border-[#D7D9DF] rounded px-4 py-3 text-sm text-gray-800 placeholder-gray-400 focus:outline-none  "
+          />
+        </div>
+
+        <div class="flex flex-col space-y-2">
+          <label class="text-sm text-gray-600 font-medium" for="detail-message">Message*</label>
+          <textarea 
+            id="detail-message" 
+            rows="3"
+            required
+            placeholder="Your message" 
+            class="w-full bg-[#F4F5F6] border border-[#D7D9DF] rounded px-4 py-3 text-sm text-gray-800 placeholder-gray-400 focus:outline-none resize-none"
+          ></textarea>
+        </div>
+
+        <div class="flex items-start space-x-3 pt-2">
+          <input 
+            type="checkbox" 
+            id="agree" 
+            required
+            class="mt-1 w-4 h-4 text-[#FF5A30] border-[#D7D9DF] rounded focus:ring-[#FF5A30] accent-[#FF5A30] cursor-pointer"
+          />
+          <label for="agree" class="text-xs text-gray-500 leading-normal cursor-pointer select-none">
+            I agree to receive communications from Createx Construction Bureau.
+          </label>
+        </div>
+
+        <div class="pt-4">
+          <button 
+            type="submit" 
+            class="w-full bg-[#FF5A30] text-white font-bold text-xs uppercase tracking-wider py-3.5 rounded transition-colors duration-300 shadow-lg shadow-[#FF5A30]/30"
+          >
+            Send request
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
 </body>
 </html>
